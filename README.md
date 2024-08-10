@@ -4,7 +4,7 @@
 Simple Docker compose file for Official Cryofall dedicated server.
 Remember to follow comments below.
 Other than that please check official docker setup information https://hub.docker.com/r/atomictorch/cryofall-server
-You can also change command to 
+
 ```yaml
 version: '3'
 services:
@@ -26,3 +26,4 @@ services:
       - "[YOURDATAFOLDER]:/app/Data" # replace [YOURDATAFOLDER] with your path example below
       # - /mnt/drive/data:app/Data
 ```
+And of course forward the port on your router and update the port in SettingsServer.xml
