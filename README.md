@@ -20,7 +20,8 @@ services:
     # change port if it's already taken or if you prefer a different one
     # if the server is not showing up for you locally in
     # Multiplayer -> Custom -> localhost/local address for example 192.168.1.x
-    # then you can try to comment out the ports section and uncomment network_mode (for me it worked on host)
+    # then you can try to comment out the ports section and uncomment network_mode
+    # (for me it worked on host)
     volumes:
       - "[YOURDATAFOLDER]:/app/Data" # replace [YOURDATAFOLDER] with your path example below
       # - /mnt/drive/data:app/Data
